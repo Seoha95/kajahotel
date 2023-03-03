@@ -69,7 +69,10 @@
            
 </details>        
     
-### 6. 느낀점
+### 6. 느낀점   
+spring framework를 사용해서 코드를 더 간결하게 쓸 수 있어 편리하게 작성했던 것 같습니다.   
+그리고 mapper를 사용하기 전에는 dao에서 sql문으로 join을 했다면 mapper를 사용해서는 reslutMap을 사용해서    
+join을 해주고 dao보다 더 편리하게 사용할 수 있었던 것 같습니다.   
 
 
 
