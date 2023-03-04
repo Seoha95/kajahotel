@@ -16,8 +16,7 @@
 * JAVASCRIPT   
 * AJAX   
 * 아임포트결제 API   
-* KAKAO 지도API   
-* CSS   
+* KAKAO 지도API      
 * Jsp
 
 
