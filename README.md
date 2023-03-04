@@ -65,7 +65,8 @@
    
 <details>      
 <summary>개선된 코드</summary>   
-           
+     
+<img src="./개선된코드.PNG" width="500" height="500">        
 </details>        
     
 ### 6. 느낀점   
