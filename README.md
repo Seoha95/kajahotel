@@ -29,6 +29,9 @@
 
 ### 4.프로젝트 영상   
 
+https://github.com/Seoha95/kajahotel/assets/107228582/cf477554-74c6-430d-9a7c-b221e0aba78b   
+
+</br>   
 
 ### 4.핵심기능
  * 
