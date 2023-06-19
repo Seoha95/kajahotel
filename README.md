@@ -1,5 +1,5 @@
 ## :pushpin: kajahotel
->호텔 예약 사이트      
+>호텔 예약 서비스         
 
 </br>
 
@@ -38,16 +38,10 @@
 <details>
 <summary>핵심기능설명펼치기</summary>   
    
-#### 4-1. 사용자 시퀀스다이어그램   
-   
-<img src="./사용자 시퀀스다이어그램.jpg" width="900" height="500">   
-   
-#### 4-2. 관리자 시퀀스다이어그램  
-   
-<img src="./관리자 시퀀스다이어그램.jpg" width="900" height="500">    
+#### 4-1.      
     
-#### 4-3. Mapper를 이용   
- * dao 대신에 Mapper이용해서 join 구현 [코드보기](https://github.com/Seoha95/kajahotel/blob/e0da15589141e645d9561cfcb44a15ebe679076e/src/main/resources/mapper/Join.xml#L5-L61)   
+#### 4-3. MyBatis를 활용한 호텔 예약 서비스
+ * dao 대신에 Mapper를 활용한 데이터 조인 구현 [코드보기](https://github.com/Seoha95/kajahotel/blob/e0da15589141e645d9561cfcb44a15ebe679076e/src/main/resources/mapper/Join.xml#L5-L61)   
    
 </details>   
       
