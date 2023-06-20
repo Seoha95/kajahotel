@@ -47,27 +47,27 @@ https://github.com/Seoha95/kajahotel/assets/107228582/cf477554-74c6-430d-9a7c-b2
    
 #### 4-1. 사용자의 입력  
  * 회원가입 기능 📍[코드확인](https://github.com/Seoha95/kajahotel/blob/e9b19b276a8cbbc03c0be2da7ec92112ded7c2b2/src/main/webapp/WEB-INF/views/join.jsp#L14-L70)
-  * 사용자 등록 : 회원가입 페이지를 통해 사용자의 기본 정보(이름, 이메일, 비밀번호, 비밀번호 재확인, 전화번호)를
+   * 사용자 등록 : 회원가입 페이지를 통해 사용자의 기본 정보(이름, 이메일, 비밀번호, 비밀번호 재확인, 전화번호)를
     입력받아 회원으로 등록합니다.
-  * 유효성 검사 : 회원가입 시 비밀번호가 8자 이상이면서 숫자, 대문자, 소문자, 특수문자가 포함하지 않을 경우 안내문구를
+   * 유효성 검사 : 회원가입 시 비밀번호가 8자 이상이면서 숫자, 대문자, 소문자, 특수문자가 포함하지 않을 경우 안내문구를
     띄웁니다.      
  * 로그인 기능  📍[코드확인](https://github.com/Seoha95/kajahotel/blob/e9b19b276a8cbbc03c0be2da7ec92112ded7c2b2/src/main/webapp/WEB-INF/views/login.jsp#L30-L34)
-  * 사용자 인증 : 로그인 페이지를 통해 사용자의 이메일과 비밀번호를 입력받아 인증합니다.
+   * 사용자 인증 : 로그인 페이지를 통해 사용자의 이메일과 비밀번호를 입력받아 인증합니다.
 * 회원 탈퇴 기능 📍[코드확인](https://github.com/Seoha95/kajahotel/blob/e9b19b276a8cbbc03c0be2da7ec92112ded7c2b2/src/main/webapp/WEB-INF/views/userDelete.jsp#L30-L36)
- * 회원 확인 후 탈퇴 : 이메일과 비밀번호 입력 후 2개의 데이터가 일치하는 데이터가 있으면 회원 정보가 삭제됩니다.
+   * 회원 확인 후 탈퇴 : 이메일과 비밀번호 입력 후 2개의 데이터가 일치하는 데이터가 있으면 회원 정보가 삭제됩니다.
 * 고객의 소리 등록 기능 📍[코드확인](https://github.com/Seoha95/kajahotel/blob/e9b19b276a8cbbc03c0be2da7ec92112ded7c2b2/src/main/webapp/WEB-INF/views/reviewWriting.jsp#L32-L47)
- * 호텔 이용 후 리뷰 작성 : 사용자가 로그인 후 고객의 소리를 클릭하면 제목과 내용을 입력하고 등록할 수 있습니다.     
+   * 호텔 이용 후 리뷰 작성 : 사용자가 로그인 후 고객의 소리를 클릭하면 제목과 내용을 입력하고 등록할 수 있습니다.     
 
 ### 4-2. 사용자의 선택   
  * 원하는 기간과 인원수를 예약하는 기능 📍[코드확인](https://github.com/Seoha95/kajahotel/blob/e9b19b276a8cbbc03c0be2da7ec92112ded7c2b2/src/main/webapp/WEB-INF/views/reservation.jsp#L39-L72)
-  * 로그인 한 후에 메뉴의 예약을 클릭하고 원하는 날짜의 체크인과 체크아웃을 선택할  수 있습니다.
-  * 인원수도 지정할 수 있습니다.    
+   * 로그인 한 후에 메뉴의 예약을 클릭하고 원하는 날짜의 체크인과 체크아웃을 선택할  수 있습니다.
+   * 인원수도 지정할 수 있습니다.    
 
 ### 4-3. 관리자의 수정   
  * 예약 정보 수정 기능 📍[코드확인](https://github.com/Seoha95/kajahotel/blob/e9b19b276a8cbbc03c0be2da7ec92112ded7c2b2/src/main/webapp/WEB-INF/views/adminReservationInfo.jsp#L27-L47)
-  * 회원의 예약정보를 수정할 수 있습니다.
+   * 회원의 예약정보를 수정할 수 있습니다.
 * 회원정보 수정 기능 📍[코드확인](https://github.com/Seoha95/kajahotel/blob/e9b19b276a8cbbc03c0be2da7ec92112ded7c2b2/src/main/webapp/WEB-INF/views/adminUserInfo.jsp#L27-L50)
- * 회원의 기본정보(이름, 이메일, 전화번호, 비밀번호)를 수정할 수 있습니다.    
+   * 회원의 기본정보(이름, 이메일, 전화번호, 비밀번호)를 수정할 수 있습니다.    
     
 #### 4-4. MyBatis를 활용한 호텔 예약 서비스
  * dao 대신에 Mapper를 활용한 데이터 조인 구현 📍[코드확인](https://github.com/Seoha95/kajahotel/blob/e0da15589141e645d9561cfcb44a15ebe679076e/src/main/resources/mapper/Join.xml#L5-L61)   
