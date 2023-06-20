@@ -58,12 +58,12 @@ https://github.com/Seoha95/kajahotel/assets/107228582/cf477554-74c6-430d-9a7c-b2
 * 고객의 소리 등록 기능 📍[코드확인](https://github.com/Seoha95/kajahotel/blob/e9b19b276a8cbbc03c0be2da7ec92112ded7c2b2/src/main/webapp/WEB-INF/views/reviewWriting.jsp#L32-L47)
    * 호텔 이용 후 리뷰 작성 : 사용자가 로그인 후 고객의 소리를 클릭하면 제목과 내용을 입력하고 등록할 수 있습니다.     
 
-### 4-2. 사용자의 선택   
+#### 4-2. 사용자의 선택   
  * 원하는 기간과 인원수를 예약하는 기능 📍[코드확인](https://github.com/Seoha95/kajahotel/blob/e9b19b276a8cbbc03c0be2da7ec92112ded7c2b2/src/main/webapp/WEB-INF/views/reservation.jsp#L39-L72)
    * 로그인 한 후에 메뉴의 예약을 클릭하고 원하는 날짜의 체크인과 체크아웃을 선택할  수 있습니다.
    * 인원수도 지정할 수 있습니다.    
 
-### 4-3. 관리자의 수정   
+#### 4-3. 관리자의 수정  
  * 예약 정보 수정 기능 📍[코드확인](https://github.com/Seoha95/kajahotel/blob/e9b19b276a8cbbc03c0be2da7ec92112ded7c2b2/src/main/webapp/WEB-INF/views/adminReservationInfo.jsp#L27-L47)
    * 회원의 예약정보를 수정할 수 있습니다.
 * 회원정보 수정 기능 📍[코드확인](https://github.com/Seoha95/kajahotel/blob/e9b19b276a8cbbc03c0be2da7ec92112ded7c2b2/src/main/webapp/WEB-INF/views/adminUserInfo.jsp#L27-L50)
